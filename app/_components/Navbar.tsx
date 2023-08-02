@@ -4,8 +4,8 @@ import style from "@/app/_styles/navbar.module.scss";
 
 const Navbar = () => {
   return (
-    <nav className={style.nav}>
-      <ul>
+    <nav>
+      <ul className={style.nav}>
         <li>
           <Link href="/">Logo</Link>
         </li>

@@ -1,6 +1,10 @@
 .nav {
   display: flex;
   flex-wrap: wrap;
-  width: 100vh;
-  justify-items: space-between;
+  width: 100vw;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: hsl(200, 85%, 15%);
+  color: white;
+  justify-content: flex-end;
 }
